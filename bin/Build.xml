@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<project name="Battleship" basedir="." default="run">
+	<!-- Properties -->
+	<property name="bin.dir" location="build/bin" />
+	<property name="doc.dir" location="doc/javadoc" />
+	<property name="jar.dir" location="build/Battleship.jar" />
+	<property name="src.dir" location="src" />
+
+	<!-- Clean -->
+	<target name="clean">
+		<delete dir="${bin.dir}" />
+		<delete dir="${doc.dir}" />
+	</target>
+
+	<!-- Create target folders -->
+	<target name="makedir">
+		<mkdir dir="${bin.dir}" />
+		<mkdir dir="${doc.dir}" />
+	</target>
+
+	<!-- Javadoc -->
+	<target name="javadoc">
+		<delete dir="${doc.dir}" />
+		<mkdir dir="${doc.dir}" />
+		<javadoc packagenames="src" sourcepath="${src.dir}" destdir="${doc.dir}">
+			<fileset dir="${src.dir}">
+				<include name="**" />
+			</fileset>
+		</javadoc>
+	</target>
+
+	<!-- Compile -->
+	<target name="compile" depends="clean, makedir">
+		<javac destdir="${bin.dir}" includeantruntime="false" srcdir="${src.dir}" />
+	</target>
+
+	<!-- Deployable JAR -->
+	<target name="jar" depends="compile">
+		<jar destfile="${jar.dir}" basedir="${bin.dir}">
+			<manifest>
+				<attribute name="Main-Class" value="fr.pinguet62.battleship.Main" />
+			</manifest>
+		</jar>
+	</target>
+
+	<!-- Main -->
+	<target name="main" depends="javadoc, jar" />
+
+	<!-- Run -->
+	<target name="run" depends="jar">
+		<java jar="${jar.dir}" fork="true" />
+	</target>
+</project>
