@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <component id="1" language="java" name="src" project="BattleshipGameJava" file="/BattleshipGameJava/src" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="39" width="114" x="149" y="-285"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </component>  
+  <class id="2" language="java" name="Battleship.java.JTextField" project="BattleshipGame" 
+    file="/BattleshipGame/src/Battleship/java/JTextField.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="87" x="303" y="-285"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="Battleship.Game.ButtonHandler" project="BattleshipGameJava" 
+    file="/BattleshipGameJava/src/Battleship/Game.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="194" x="1212" y="1199"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="Battleship.LogoPanel" project="BattleshipGameJava" 
+    file="/BattleshipGameJava/src/Battleship/PlayingField.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="178" x="430" y="-285"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="Battleship.Sound" project="BattleshipGameJava" 
+    file="/BattleshipGameJava/src/Battleship/Sound.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="145" x="648" y="-285"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="Battleship.java.RemotePlayer" project="BattleshipGame" 
+    file="/BattleshipGame/src/Battleship/java/RemotePlayer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="198" x="2888" y="2575"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="7" language="java" name="Battleship.java.User" project="BattleshipGame" 
+    file="/BattleshipGame/src/Battleship/java/User.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="228" x="2445" y="1199"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="Battleship.GridArea.MouseHandler" project="BattleshipGameJava" 
+    file="/BattleshipGameJava/src/Battleship/GridArea.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="188" x="690" y="2575"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="Battleship.Game" project="BattleshipGameJava" 
+    file="/BattleshipGameJava/src/Battleship/Game.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="151" x="1446" y="718"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="Battleship.PlayingField.ButtonHandler" project="BattleshipGameJava" 
+    file="/BattleshipGameJava/src/Battleship/PlayingField.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="194" x="791" y="1914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="Battleship.BattleShip" project="BattleshipGameJava" 
+    file="/BattleshipGameJava/src/Battleship/BattleShip.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="585" width="181" x="1446" y="-285"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="Battleship.java.Board" project="BattleshipGame" 
+    file="/BattleshipGame/src/Battleship/java/Board.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="495" width="220" x="2185" y="1199"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="Battleship.PlayingField" project="BattleshipGameJava" 
+    file="/BattleshipGameJava/src/Battleship/PlayingField.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="675" width="147" x="1025" y="1199"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="Battleship.java.Board.BoardGraphics" project="BattleshipGame" 
+    file="/BattleshipGame/src/Battleship/java/Board.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="166" x="2124" y="1914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="15" language="java" name="Battleship.java.PlaceHolder" project="BattleshipGame" 
+    file="/BattleshipGame/src/Battleship/java/PlaceHolder.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="272" x="1637" y="718"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="16" language="java" name="Battleship.java.Player" project="BattleshipGame" 
+    file="/BattleshipGame/src/Battleship/java/Player.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="224" x="2227" y="718"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="Battleship.LeftField" project="BattleshipGameJava" 
+    file="/BattleshipGameJava/src/Battleship/PlayingField.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="178" x="918" y="2575"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="Battleship.java.Battleship.ThreadStopper" project="BattleshipGame" 
+    file="/BattleshipGame/src/Battleship/java/Battleship.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="154" x="1949" y="718"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="Battleship.java.Ship" project="BattleshipGame" 
+    file="/BattleshipGame/src/Battleship/java/Ship.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="315" width="160" x="2330" y="1914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="Battleship.GridArea" project="BattleshipGameJava" 
+    file="/BattleshipGameJava/src/Battleship/GridArea.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="315" width="178" x="1025" y="1914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="Battleship.BattleShip.ItemHandler" project="BattleshipGameJava" 
+    file="/BattleshipGameJava/src/Battleship/BattleShip.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="194" x="1212" y="718"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="Battleship.Demo" project="BattleshipGameJava" 
+    file="/BattleshipGameJava/src/Battleship/Demo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="131" x="1446" y="1199"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="Battleship.Connection" project="BattleshipGameJava" 
+    file="/BattleshipGameJava/src/Battleship/Connection.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="387" width="159" x="1617" y="1199"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="Battleship.RightField" project="BattleshipGameJava" 
+    file="/BattleshipGameJava/src/Battleship/PlayingField.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="178" x="1136" y="2575"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="25" language="java" name="Battleship.java" project="BattleshipGame" 
+    file="/BattleshipGame/src/Battleship/java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="107" x="833" y="-285"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="26" language="java" name="Battleship.ObjectPacket" project="BattleshipGameJava" 
+    file="/BattleshipGameJava/src/Battleship/ObjectPacket.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="441" width="164" x="1008" y="718"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="Battleship.java.BattleshipAI" project="BattleshipGame" 
+    file="/BattleshipGame/src/Battleship/java/BattleshipAI.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="387" width="331" x="2713" y="1199"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="Battleship.java.RemotePlaceHolder" project="BattleshipGame" 
+    file="/BattleshipGame/src/Battleship/java/RemotePlaceHolder.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="272" x="1667" y="-285"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="29" language="java" name="Battleship" project="BattleshipGameJava" 
+    file="/BattleshipGameJava/src/Battleship" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="980" y="-285"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="30" language="java" name="Battleship.java.Battleship" project="BattleshipGame" 
+    file="/BattleshipGame/src/Battleship/java/Battleship.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="963" width="172" x="2187" y="-285"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <component id="31" language="java" name="src" project="BattleshipGame" file="/BattleshipGame/src" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="39" width="114" x="1121" y="-285"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </component>  
+  <class id="32" language="java" name="Battleship.java.RemoteUser" project="BattleshipGame" 
+    file="/BattleshipGame/src/Battleship/java/RemoteUser.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="621" width="198" x="2867" y="1914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="Battleship.SoundClipTest" project="BattleshipGameJava" 
+    file="/BattleshipGameJava/src/Battleship/SoundClipTest.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="131" x="1275" y="-285"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="Battleship.GridArea.MouseMovingHandler" project="BattleshipGameJava" 
+    file="/BattleshipGameJava/src/Battleship/GridArea.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="180" x="1354" y="2575"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="35">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="36" name="myConnection"/>      
+      <multiplicity id="37" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="38">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="8"/>  
+  </nesting>  
+  <generalization id="39">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <association id="40">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="41" name="theDemo"/>      
+      <multiplicity id="42" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="43">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="34"/>  
+  </nesting>  
+  <association id="44">    
+    <bendpoint x="2133" y="718"/>    
+    <bendpoint x="2133" y="1199"/>    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="45" name="board2Graphics"/>      
+      <multiplicity id="46" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="47">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="20"/>  
+  </generalization>  
+  <association id="48">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="49" name="myOcean"/>      
+      <multiplicity id="50" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="51">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="16"/>  
+  </generalization>  
+  <realization id="52">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="53">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="15"/>  
+  </realization>  
+  <association id="54">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="55" name="myField"/>      
+      <multiplicity id="56" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="57">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="14"/>  
+  </nesting>  
+  <association id="58">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="59" name="player2"/>      
+      <multiplicity id="60" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="61">    
+    <bendpoint x="2196" y="718"/>    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="62" name="board1"/>      
+      <multiplicity id="63" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="64">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="10"/>  
+  </nesting>  
+  <association id="65">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="66" name="field"/>      
+      <multiplicity id="67" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="68">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="69" name="enemyOcean"/>      
+      <multiplicity id="70" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="71">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="72" name="player1"/>      
+      <multiplicity id="73" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="74">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="20"/>  
+  </generalization>  
+  <association id="75">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="76" name="playerBoard"/>      
+      <multiplicity id="77" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="78">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="3"/>  
+  </nesting>  
+  <nesting id="79">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="21"/>  
+  </nesting>  
+  <generalization id="80">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="16"/>  
+  </generalization>  
+  <association id="81">    
+    <bendpoint x="2154" y="718"/>    
+    <bendpoint x="2154" y="1199"/>    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="82" name="board1Graphics"/>      
+      <multiplicity id="83" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="84">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="18"/>  
+  </nesting>  
+  <generalization id="85">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <association id="86">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="87" name="mainHandle"/>      
+      <multiplicity id="88" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="89">    
+    <bendpoint x="2175" y="718"/>    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="90" name="board2"/>      
+      <multiplicity id="91" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="92">    
+    <bendpoint x="3095" y="718"/>    
+    <bendpoint x="3095" y="1199"/>    
+    <bendpoint x="3095" y="1914"/>    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="93" name="remoteOpponent"/>      
+      <multiplicity id="94" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="95">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="96" name="ships"/>      
+      <multiplicity id="97" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="98">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="99" name="guessBoard"/>      
+      <multiplicity id="100" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="101">    
+    <bendpoint x="3074" y="718"/>    
+    <bendpoint x="3074" y="1199"/>    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="102" name="localUser"/>      
+      <multiplicity id="103" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
